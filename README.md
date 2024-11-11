@@ -70,6 +70,7 @@ Then use Cramer's formula to find the intersection point.
     y = (a1 * c2 - a2 * c1) / det  
 
 ![alt text](image-12.png)
+![alt text](image-13.png)
 This task was quite hard.I use ChatGPT to help me doing this task.But the code from ChatGPT cannot be run directly so I adjust some part and ask questions to my classmate to help me complete this task.
 
 
