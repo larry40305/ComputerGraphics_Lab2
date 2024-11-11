@@ -52,19 +52,19 @@ I handle each P and Q pair based on whether they are inside or outside the bound
 4. Both Outside: If both are outside, no points are added.  
 ![alt text](image-10.png)
 
-isInside function  
+**isInside function**  
 (end.x - start.x) and (end.y - start.y) define the direction vector from start to end.  
 (p.x - start.x) and (p.y - start.y) define the direction vector from start to p.  
-The use cross product to determine insisde or outside.  
+The use cross product to determine inside or outside.  
 ![alt text](image-11.png)
 
-getIntersection function
+**getIntersection function**  
 I use this function to find the intersection point of two line.  
 Line equation of two point (x1,y1) and (x2,y2)：  
-    a*x + b*y =c where  
-    a = y2 - y1, b = x1 - x2, c = a*x1 + b*y1  
+    a * x + b * y =c where  
+    a = y2 - y1, b = x1 - x2, c = a * x1 + b * y1  
 Then calculate the determinant:  
-    det = a1*b2 - a2*b1  
+    det = a1 * b2 - a2 * b1  
 Then use Cramer's formula to find the intersection point.  
     x = (b2 * c1 - b1 * c2) / det  
     y = (a1 * c2 - a2 * c1) / det  
