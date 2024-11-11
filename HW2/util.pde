@@ -100,10 +100,10 @@ public Vector3[] Sutherland_Hodgman_algorithm(Vector3[] points, Vector3[] bounda
         output.clear();
         Vector3 start_edge = boundary[i];
         Vector3 end_edge = boundary[(i+1) % boundary.length];
-        Vector3 P = input.get(input.size() - 1);
+        Vector3 P = input.get(input.size() - 1); //previous vertex
 
         for(int j = 0; j < input.size();j++){
-            Vector3 Q = input.get(j);
+            Vector3 Q = input.get(j); // current vertex
 
             if(isInside(P,start_edge,end_edge)){
                 if(isInside(Q,start_edge,end_edge)){
