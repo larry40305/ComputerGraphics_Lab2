@@ -1,34 +1,34 @@
 ## ComputerGraphics_Lab2
 # Translation Matrix
-I implement this matrix to do the translation.
-([1 0 0 tx]
- [0 1 0 ty]
- [0 0 1 tz]
- [0 0 0 1 ])
+I implement this matrix to do the translation.  
+([1 0 0 tx]  
+ [0 1 0 ty]  
+ [0 0 1 tz]  
+ [0 0 0 1 ])  
 
 ![alt text](image-3.png)
 ![alt text](image.png)
 ![alt text](image-1.png)
 
 # Rotation Matrix
-I implement this matrix to do the rotation.
-([cos(a) -sin(a) 0 0]
- [sin(a)  cos(a) 0 0]
- [ 0        0    1 0]
- [ 0        0    0 1])
+I implement this matrix to do the rotation.  
+([cos(a) -sin(a) 0 0]  
+ [sin(a)  cos(a) 0 0]  
+ [ 0        0    1 0]  
+ [ 0        0    0 1])  
 
-![alt text](image-4.png)
-![alt text](image-2.png)
+![alt text](image-4.png)  
+![alt text](image-2.png)  
 
 # Scaling Matrix
-I implement this matrix to do the scaling.
-([sx 0  0  0]
- [0  sy 0  0]
- [0  0  sz 0]
- [0  0  0  1])
+I implement this matrix to do the scaling.  
+([sx 0  0  0]  
+ [0  sy 0  0]  
+ [0  0  sz 0]  
+ [0  0  0  1])  
 
- ![alt text](image-5.png)
- ![alt text](image-6.png)
+ ![alt text](image-5.png)  
+ ![alt text](image-6.png)  
 
 # Is the point inside a shape?
 ![alt text](image-7.png)
